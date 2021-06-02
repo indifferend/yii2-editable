@@ -1,20 +1,20 @@
 <?php
 
-namespace indifferentmoviegoer\editable\bundles;
+namespace indifferend\editable\bundles;
 
 use yii\web\AssetBundle;
 
 /**
  * Class EditableComboDateAsset
  *
- * @package indifferentmoviegoer\editable\bundles
+ * @package indifferend\editable\bundles
  */
 class EditableComboDateAsset extends AssetBundle
 {
     /**
      * @var string
      */
-    public $sourcePath = '@vendor/indifferentmoviegoer/yii2-editable/assets/combodate';
+    public $sourcePath = '@vendor/indifferend/yii2-editable/assets/combodate';
 
     /**
      * @var array
@@ -29,6 +29,6 @@ class EditableComboDateAsset extends AssetBundle
      * @var array
      */
     public $depends = [
-        'indifferentmoviegoer\editable\bundles\EditableBootstrapAsset',
+        'indifferend\editable\bundles\EditableBootstrapAsset',
     ];
 }

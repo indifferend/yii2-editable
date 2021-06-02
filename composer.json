@@ -1,5 +1,5 @@
 {
-    "name": "indifferentmoviegoer/yii2-editable",
+    "name": "indifferend/yii2-editable",
     "description": "Yii2 editable field extension",
     "type": "yii2-extension",
     "keywords": [
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "indifferentmoviegoer\\editable\\": ""
+            "indifferend\\editable\\": ""
         }
     },
     "repositories": [
