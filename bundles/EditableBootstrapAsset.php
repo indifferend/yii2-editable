@@ -1,13 +1,13 @@
 <?php
 
-namespace yii2mod\editable\bundles;
+namespace indifferentmoviegoer\editable\bundles;
 
 use yii\web\AssetBundle;
 
 /**
  * Class EditableBootstrapAsset
  *
- * @package yii2mod\editable\bundles
+ * @package indifferentmoviegoer\editable\bundles
  */
 class EditableBootstrapAsset extends AssetBundle
 {

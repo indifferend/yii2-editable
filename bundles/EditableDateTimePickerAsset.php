@@ -1,26 +1,26 @@
 <?php
 
-namespace yii2mod\editable\bundles;
+namespace indifferentmoviegoer\editable\bundles;
 
 use yii\web\AssetBundle;
 
 /**
  * Class EditableDateTimePickerAsset
  *
- * @package yii2mod\editable\bundles
+ * @package indifferentmoviegoer\editable\bundles
  */
 class EditableDateTimePickerAsset extends AssetBundle
 {
     /**
      * @var string
      */
-    public $sourcePath = '@vendor/yii2mod/yii2-editable/assets/datetimepicker';
+    public $sourcePath = '@vendor/indifferentmoviegoer/yii2-editable/assets/datetimepicker';
 
     /**
      * @var array
      */
     public $depends = [
-        'yii2mod\editable\bundles\EditableBootstrapAsset',
+        'indifferentmoviegoer\editable\bundles\EditableBootstrapAsset',
     ];
 
     /**

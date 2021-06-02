@@ -1,20 +1,20 @@
 <?php
 
-namespace yii2mod\editable\bundles;
+namespace indifferentmoviegoer\editable\bundles;
 
 use yii\web\AssetBundle;
 
 /**
  * Class EditableAddressAsset
  *
- * @package yii2mod\editable\bundles
+ * @package indifferentmoviegoer\editable\bundles
  */
 class EditableAddressAsset extends AssetBundle
 {
     /**
      * @var string
      */
-    public $sourcePath = '@vendor/yii2mod/yii2-editable/assets/address';
+    public $sourcePath = '@vendor/indifferentmoviegoer/yii2-editable/assets/address';
 
     /**
      * @var array
@@ -34,6 +34,6 @@ class EditableAddressAsset extends AssetBundle
      * @var array
      */
     public $depends = [
-        'yii2mod\editable\bundles\EditableBootstrapAsset',
+        'indifferentmoviegoer\editable\bundles\EditableBootstrapAsset',
     ];
 }

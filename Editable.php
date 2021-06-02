@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2mod\editable;
+namespace indifferentmoviegoer\editable;
 
 use yii\base\InvalidConfigException;
 use yii\db\ActiveRecordInterface;
@@ -10,16 +10,16 @@ use yii\helpers\Json;
 use yii\helpers\Url;
 use yii\web\JsExpression;
 use yii\widgets\InputWidget;
-use yii2mod\editable\bundles\EditableAddressAsset;
-use yii2mod\editable\bundles\EditableBootstrapAsset;
-use yii2mod\editable\bundles\EditableComboDateAsset;
-use yii2mod\editable\bundles\EditableDatePickerAsset;
-use yii2mod\editable\bundles\EditableDateTimePickerAsset;
+use indifferentmoviegoer\editable\bundles\EditableAddressAsset;
+use indifferentmoviegoer\editable\bundles\EditableBootstrapAsset;
+use indifferentmoviegoer\editable\bundles\EditableComboDateAsset;
+use indifferentmoviegoer\editable\bundles\EditableDatePickerAsset;
+use indifferentmoviegoer\editable\bundles\EditableDateTimePickerAsset;
 
 /**
  * Class Editable
  *
- * @package yii2mod\editable
+ * @package indifferentmoviegoer\editable
  */
 class Editable extends InputWidget
 {

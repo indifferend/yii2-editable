@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2mod\editable;
+namespace indifferentmoviegoer\editable;
 
 use Yii;
 use yii\base\Action;
@@ -11,7 +11,7 @@ use yii\web\BadRequestHttpException;
 /**
  * Class EditableAction
  *
- * @package yii2mod\editable
+ * @package indifferentmoviegoer\editable
  */
 class EditableAction extends Action
 {
